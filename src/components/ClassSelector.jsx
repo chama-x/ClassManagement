@@ -5,17 +5,22 @@ const ClassSelector = ({ selectedGrade, setSelectedGrade }) => {
   const [isOpen, setIsOpen] = useState(false);
   
   const grades = [
-    'Grade 8',
-    'Grade 9', 
     'Grade 10',
     'Grade 11',
-    'Grade 12'
   ];
 
   const handleGradeSelect = (grade) => {
+    console.log('Grade selected:', grade);
     setSelectedGrade(grade);
     setIsOpen(false);
   };
+
+  const toggleDropdown = () => {
+    console.log('Dropdown toggled. Current state:', isOpen, 'New state:', !isOpen);
+    setIsOpen(!isOpen);
+  };
+
+  console.log('ClassSelector rendered. isOpen:', isOpen, 'selectedGrade:', selectedGrade);
 
   return (
     <div className="class-selector">
@@ -23,7 +28,7 @@ const ClassSelector = ({ selectedGrade, setSelectedGrade }) => {
       <div className="dropdown-container">
         <div 
           className={`dropdown ${isOpen ? 'open' : ''}`}
-          onClick={() => setIsOpen(!isOpen)}
+          onClick={toggleDropdown}
         >
           <div className="dropdown-selected">
             <span>{selectedGrade}</span>

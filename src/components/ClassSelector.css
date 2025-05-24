@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  position: relative;
+  z-index: 10;
 }
 
 .class-selector h3 {
@@ -16,6 +18,7 @@
 .dropdown-container {
   width: 300px;
   position: relative;
+  z-index: 20;
 }
 
 .dropdown {
@@ -26,7 +29,7 @@
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   transition: all 0.3s ease;
 }
 
@@ -66,7 +69,7 @@
   border-top: none;
   border-radius: 0 0 12px 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
+  z-index: 9999;
   max-height: 200px;
   overflow-y: auto;
 }
@@ -78,6 +81,7 @@
   cursor: pointer;
   transition: all 0.2s ease;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: rgba(255, 255, 255, 0.95);
 }
 
 .dropdown-option:last-child {

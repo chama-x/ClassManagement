@@ -1,15 +1,9 @@
 .header {
-  width: calc(100% - 280px);
+  width: 100%;
   height: 80px;
-  margin-left: 280px;
-  background: #4285f4;
-  background-image: 
-    linear-gradient(45deg, #87ceeb 25%, transparent 25%),
-    linear-gradient(-45deg, #87ceeb 25%, transparent 25%),
-    linear-gradient(45deg, transparent 75%, #87ceeb 75%),
-    linear-gradient(-45deg, transparent 75%, #87ceeb 75%);
-  background-size: 20px 20px;
-  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+  background: linear-gradient(135deg, #4285f4 0%, #87ceeb 50%, #b0d4f1 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   padding: 0 30px;
@@ -78,8 +72,6 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .header {
-    width: 100%;
-    margin-left: 0;
     height: 70px;
     padding: 0 20px;
   }
