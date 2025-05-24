@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-content">
-        <h1 className="header-title">ගණිත පන්තිය - Mathematics Class Sri Lanka</h1>
+        <h1 className="header-title">Mathematics Class Management</h1>
         <div className="edit-mode-toggle">
           <span>Edit Mode</span>
           <div 

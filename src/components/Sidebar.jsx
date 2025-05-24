@@ -14,24 +14,23 @@ import './Sidebar.css';
 
 const Sidebar = ({ currentPage, onNavigate }) => {
   const students = [
-    { name: 'Kasun Perera', role: 'Grade 10 Student' },
-    { name: 'Nimali Silva', role: 'Grade 11 Student' },
-    { name: 'Tharindu Fernando', role: 'Grade 10 Student' },
-    { name: 'Sachini Jayawardena', role: 'Grade 12 Student' }
+    { name: 'Kasun Perera', role: 'Grade 11 - Colombo' },
+    { name: 'Nimali Silva', role: 'Grade 10 - Kandy' },
+    { name: 'Tharindu Fernando', role: 'Grade 12 - Galle' }
   ];
 
   const navigationItems = [
-    { id: 'home', icon: FaHome, label: 'Home - මුල් පිටුව' },
+    { id: 'home', icon: FaHome, label: 'Home' },
     { id: 'dashboard', icon: MdDashboard, label: 'Student Dashboard' },
-    { id: 'tutorials', icon: FaBook, label: 'Tutorials - පාඩම්' },
-    { id: 'assignments', icon: FaClipboardList, label: 'Assignments -과제' },
-    { id: 'grading', icon: MdGrade, label: 'Grading & Gamification' },
+    { id: 'tutorials', icon: FaBook, label: 'Tutorials' },
+    { id: 'assignments', icon: FaClipboardList, label: 'Assignments' },
+    { id: 'grading', icon: MdGrade, label: 'Grading and Gamification' },
     { id: 'chatbot', icon: FaRobot, label: 'AI Chat Bot' }
   ];
 
   const settingsItems = [
     { id: 'profile', icon: FaUserCircle, label: 'Student Profile' },
-    { id: 'settings', icon: FaCog, label: 'Settings - සැකසුම්' },
+    { id: 'settings', icon: FaCog, label: 'Settings' },
     { id: 'logout', icon: FaSignOutAlt, label: 'Logout', isLogout: true }
   ];
 
@@ -48,7 +47,7 @@ const Sidebar = ({ currentPage, onNavigate }) => {
     <div className="sidebar">
       <div className="logo-section">
         <div className="logo-icon">
-          <span>ගණ</span>
+          <span>+</span>
         </div>
         <div className="logo-text">
           <h3>MATHS</h3>
@@ -57,7 +56,7 @@ const Sidebar = ({ currentPage, onNavigate }) => {
       </div>
 
       <div className="nav-section">
-        <h4>OVERVIEW - දළ විශ්ලේෂණය</h4>
+        <h4>OVERVIEW</h4>
         <ul className="nav-list">
           {navigationItems.map((item) => {
             const IconComponent = item.icon;
@@ -78,7 +77,7 @@ const Sidebar = ({ currentPage, onNavigate }) => {
       </div>
 
       <div className="students-section">
-        <h4>STUDENTS - සිසුන්</h4>
+        <h4>STUDENTS</h4>
         <div className="students-list">
           {students.map((student, index) => (
             <div key={index} className="student-item">
@@ -90,7 +89,7 @@ const Sidebar = ({ currentPage, onNavigate }) => {
       </div>
 
       <div className="settings-section">
-        <h4>SETTINGS - සැකසුම්</h4>
+        <h4>SETTINGS</h4>
         <ul className="nav-list">
           {settingsItems.map((item) => {
             const IconComponent = item.icon;

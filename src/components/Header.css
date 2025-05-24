@@ -4,28 +4,12 @@
   margin-left: 280px;
   background: #4285f4;
   background-image: 
-    /* Blue tiles pattern */
     linear-gradient(45deg, #87ceeb 25%, transparent 25%),
     linear-gradient(-45deg, #87ceeb 25%, transparent 25%),
     linear-gradient(45deg, transparent 75%, #87ceeb 75%),
-    linear-gradient(-45deg, transparent 75%, #87ceeb 75%),
-    /* Additional tile pattern */
-    repeating-linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.1) 0px,
-      rgba(255, 255, 255, 0.1) 2px,
-      transparent 2px,
-      transparent 20px
-    ),
-    repeating-linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0.1) 0px,
-      rgba(255, 255, 255, 0.1) 2px,
-      transparent 2px,
-      transparent 20px
-    );
-  background-size: 20px 20px, 20px 20px, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
-  background-position: 0 0, 0 0, 10px 10px, 10px 10px, 0 0, 0 0;
+    linear-gradient(-45deg, transparent 75%, #87ceeb 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
   display: flex;
   align-items: center;
   padding: 0 30px;
@@ -47,7 +31,7 @@
   font-size: 24px;
   font-weight: 600;
   margin: 0;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .edit-mode-toggle {

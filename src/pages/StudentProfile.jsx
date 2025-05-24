@@ -7,7 +7,7 @@ const StudentProfile = () => {
       <div className="page-content">
         <div className="page-header">
           <h1>Student Profile</h1>
-          <p>Manage your personal information and preferences</p>
+          <p>Manage your personal information and academic preferences</p>
         </div>
 
         <div className="page-section">
@@ -15,7 +15,7 @@ const StudentProfile = () => {
           <div className="feature-grid">
             <div className="feature-card">
               <h4>Name</h4>
-              <p>John Doe</p>
+              <p>Kasun Perera</p>
             </div>
             <div className="feature-card">
               <h4>Grade Level</h4>
@@ -26,8 +26,16 @@ const StudentProfile = () => {
               <p>STU-2024-001</p>
             </div>
             <div className="feature-card">
-              <h4>Email</h4>
-              <p>john.doe@school.edu</p>
+              <h4>School</h4>
+              <p>Royal College, Colombo 07</p>
+            </div>
+            <div className="feature-card">
+              <h4>Province</h4>
+              <p>Western Province</p>
+            </div>
+            <div className="feature-card">
+              <h4>Medium of Instruction</h4>
+              <p>English</p>
             </div>
           </div>
         </div>
@@ -36,32 +44,41 @@ const StudentProfile = () => {
           <h2>Academic Progress</h2>
           <div className="feature-grid">
             <div className="feature-card">
-              <h4>Overall GPA</h4>
-              <p>3.8 / 4.0</p>
+              <h4>Overall Average</h4>
+              <p>85% (Grade A)</p>
             </div>
             <div className="feature-card">
-              <h4>Math Grade</h4>
-              <p>A- (88%)</p>
+              <h4>Mathematics Grade</h4>
+              <p>88% (Grade A)</p>
+            </div>
+            <div className="feature-card">
+              <h4>Term Test Results</h4>
+              <p>1st Term: 82%, 2nd Term: 90%</p>
+            </div>
+            <div className="feature-card">
+              <h4>Class Rank</h4>
+              <p>3rd out of 35 students</p>
             </div>
             <div className="feature-card">
               <h4>Attendance</h4>
-              <p>95% (19/20 classes)</p>
+              <p>95% (190/200 days)</p>
             </div>
             <div className="feature-card">
-              <h4>Rank</h4>
-              <p>3rd in class</p>
+              <h4>O/L Target</h4>
+              <p>9 A's including Mathematics</p>
             </div>
           </div>
         </div>
 
         <div className="page-section">
-          <h2>Learning Preferences</h2>
+          <h2>Learning Preferences & Goals</h2>
           <ul>
-            <li>Preferred learning style: Visual and Interactive</li>
-            <li>Study time: 2 hours per day</li>
-            <li>Favorite math topics: Algebra, Geometry</li>
-            <li>Goals: Improve problem-solving speed</li>
-            <li>Notification preferences: Email and SMS</li>
+            <li>Preferred learning style: Visual and hands-on activities</li>
+            <li>Study schedule: 2-3 hours daily after school</li>
+            <li>Favorite math topics: Algebra, Coordinate Geometry</li>
+            <li>Career aspiration: Engineering at University of Moratuwa</li>
+            <li>Extra-curricular: Mathematics Olympiad team member</li>
+            <li>Language preferences: English with Sinhala explanations when needed</li>
           </ul>
         </div>
       </div>
