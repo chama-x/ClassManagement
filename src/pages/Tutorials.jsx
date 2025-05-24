@@ -7,35 +7,47 @@ const Tutorials = () => {
       <div className="page-content">
         <div className="page-header">
           <h1>Mathematics Tutorials</h1>
-          <p>Interactive lessons and step-by-step guides</p>
+          <p>Interactive lessons based on Sri Lankan O/L Mathematics syllabus</p>
         </div>
 
         <div className="page-section">
-          <h2>Available Tutorials</h2>
+          <h2>Available Tutorials (O/L Syllabus)</h2>
           <div className="feature-grid">
             <div className="feature-card">
-              <h4>Algebra Basics</h4>
-              <p>Learn the fundamentals of algebraic expressions and equations</p>
+              <h4>Algebraic Expressions & Equations</h4>
+              <p>Master algebraic manipulation and solving linear equations</p>
             </div>
             <div className="feature-card">
-              <h4>Geometry</h4>
-              <p>Explore shapes, angles, and spatial relationships</p>
+              <h4>Coordinate Geometry</h4>
+              <p>Learn about points, lines, and geometric relationships on coordinate plane</p>
             </div>
             <div className="feature-card">
               <h4>Trigonometry</h4>
-              <p>Master sine, cosine, and tangent functions</p>
+              <p>Understand sine, cosine, tangent and their applications</p>
             </div>
             <div className="feature-card">
-              <h4>Calculus Introduction</h4>
-              <p>Begin your journey into limits and derivatives</p>
+              <h4>Mensuration</h4>
+              <p>Calculate areas, volumes, and surface areas of 2D and 3D shapes</p>
             </div>
             <div className="feature-card">
-              <h4>Statistics</h4>
-              <p>Understand data analysis and probability</p>
+              <h4>Statistics & Probability</h4>
+              <p>Analyze data, calculate averages, and understand probability concepts</p>
             </div>
             <div className="feature-card">
-              <h4>Number Theory</h4>
-              <p>Explore properties of integers and prime numbers</p>
+              <h4>Number Patterns & Sequences</h4>
+              <p>Identify patterns and work with arithmetic and geometric sequences</p>
+            </div>
+            <div className="feature-card">
+              <h4>Indices & Logarithms</h4>
+              <p>Master exponential expressions and logarithmic calculations</p>
+            </div>
+            <div className="feature-card">
+              <h4>Quadratic Equations</h4>
+              <p>Solve quadratic equations using various methods</p>
+            </div>
+            <div className="feature-card">
+              <h4>Ratio, Proportion & Percentages</h4>
+              <p>Apply ratios and proportions to real-world problems</p>
             </div>
           </div>
         </div>
@@ -43,11 +55,13 @@ const Tutorials = () => {
         <div className="page-section">
           <h2>Tutorial Features</h2>
           <ul>
-            <li>Interactive video lessons</li>
-            <li>Step-by-step problem solving</li>
+            <li>Interactive video lessons with local examples</li>
+            <li>Step-by-step problem solving techniques</li>
             <li>Practice exercises with instant feedback</li>
-            <li>Visual demonstrations and animations</li>
-            <li>Progress tracking and certificates</li>
+            <li>Past paper questions and model answers</li>
+            <li>Progress tracking aligned with O/L assessment</li>
+            <li>Real-world applications using Sri Lankan contexts</li>
+            <li>Bilingual support (English with Sinhala explanations)</li>
           </ul>
         </div>
       </div>
